@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+ }
+body{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+   
+  
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-image: url("../../firstBcImage.jpg") ;
+    background-repeat: no-repeat;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+#head{
+    align-items: center;    
+    width: 90%;
+    margin: 0px 20px 20px 20px ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 10vh;
+}
+#storename{
+    font-size: 2em;
+    margin: auto;
+    height: 1em;
+    font-family: 'Dancing Script', cursive;
+}
+#head img{
+    width: 50px;
+    height: 50px;
+}
+#abas{   
+   display: flex;
+   align-items: center;   
+   width: 40%; 
+   height: 100%; 
+    
+}
+#abas li{  
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*First-Content*/
+#sobre-nos{
+    border-top: 2px solid black;
+    background-color: black;
+    display: flex;
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+}
+#content-one h1{
+   text-align: center;
+}
+#content-one{
+     text-align: justify;
+    line-height: 3em;     
+    font-size: 3.5vh;
+    color: white;
+    flex: 1;
+    margin:20px;
+    width: 50%;
+  
+    font-family: 'Crimson Text', serif;
+}
+#content-one p{
+    margin-top:40px;
+}
+#imgstore{
+    flex: 1;
+    margin-top: 0px;
+    float: right;
+    width: 50%;
+    height: 100%;
+  
+}
+/* services */
+#gp-services{   
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: url("../../secondBcImage.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#services{
+    padding: 50px 100px;
+    margin: auto;
+    display: flex;
+}
+.service{
+    border: 1px solid black;
+    box-shadow: 10px 6px 60px black;
+    margin: auto auto;
+    width: 25%;
+    height: 60vh;
+    background-color: white;
+}
+.service li img{
+
+    width: 85%;
+    height: 85%;
+    border-radius: 120px;
+}
+.service li{
+    font-size: 10pt;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    margin: auto ;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*contact*/
+#contact{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 110vh;
+}
+#contact form{
+  margin: auto 70px;
+  padding: 40px;
+     
+}
+#contact img{
+    width: 50%;
+    height: 110vh;
+
+
+}
+#contact label{
+    font-size: 16pt;
+    color: white;
+    
+}
+#formcontact{
+    background-color: black;
+    width: 50%;
+    height: 110vh;
+}
+
+
+.field{
+    margin:40px 0px;
+    width: 100%;
+    padding: 20px;
+    font-size: 15pt;
+    color:rgba(0, 0, 0, .5);
+
+}
+#descript{
+    margin: 10px 0px;
+    padding: 10px 20px 20px 20px;
+    height: 20vh;
+}
+#confirm{
+    border: 1px solid black;
+    font-size: 15pt;
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+    margin-top: 20px;
+}
+/*footer*/
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+footer h3{
+    margin: 10px 10px 10px 25px;
+    padding: 10px;
+    color:white;
+    font-size: 12pt;
+    text-align: center;
+
+}
+.footers{
+  
+    width: 30%;
+    height: 60vh;
+}
+
+.ImgsSc{
+    
+    margin: auto 20px;
+    padding: 20px;
+    display: flex;
+}
+.imgSc{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border:1px solid gray;
+    margin: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+}
+
+#adress-content{
+    
+    margin: 60px 40px;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+}
+
+#creator{
+   margin: 65px 20px;
+}
+
+
+#cards{
+    
+    margin: 60px 20px;
+}
+#pay{
+    padding: 50px 10px;
+    margin: auto auto;
+    width: 50%;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+  
+}
+.card{
+    border: 1px solid gray;
+    width: 60px;
+    height: 6vh;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+    #head{
+        align-items: center;    
+        width: 90%;
+        margin: 30px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        height: fit-content;
+    }
+
+
+
+    #sobre-nos{
+        display: block;
+        position: relative;
+        top: 25%;   
+        width: 100%;
+        height: 140vh;
+        
+    }
+    #content-one{
+        line-height: 2.5em;     
+        font-size: 4vh;
+        color: white;
+        margin:20px;
+        width: 100%;      
+        font-family: 'Crimson Text', serif;
+    }
+    #imgstore{
+        height: 80vh;  
+        display: block;
+        position: relative;
+        width: 100%;        
+        float: none;
+      
+    }
+
+}
